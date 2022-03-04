@@ -7,7 +7,7 @@ namespace HashTable
         {
             Console.WriteLine("Welcome to Hashtable Program.");
             string sentence = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
-            string[] StringToArray== sentence.Split(' ');
+            string[] StringToArray= sentence.Split(' ');
             WordFrequency(StringToArray);
         }
         public static void WordFrequency(string[] Sentence)
