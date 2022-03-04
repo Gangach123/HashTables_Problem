@@ -6,8 +6,10 @@ namespace HashTable
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Hashtable Program.");
-            String[] Sentence = { "TO", "BE", "OR", "NOT", "TO", "BE" };
-            WordFrequency(Sentence);
+            string sentence = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+            string[] StringToArray;
+            StringToArray = sentence.Split(' ');
+            WordFrequency(StringToArray);
         }
         public static void WordFrequency(string[] Sentence)
         {
